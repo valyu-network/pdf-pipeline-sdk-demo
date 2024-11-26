@@ -5,4 +5,4 @@ import os
 os.environ['VALYU_API_KEY'] = 'YOUR-VALYU-API-KEY'
 
 processor = PDFProcessor()
-processor.start_job('<folder path with .pdf files>')
+processor.start_job('path-to-/pdfs-folder')
